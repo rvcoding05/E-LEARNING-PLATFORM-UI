@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduLearn - E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">EduLearn</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="progress.html">Progress</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <!-- Home Page -->
+  <section class="hero">
+    <h2>Welcome to EduLearn</h2>
+    <p>Your journey to learning begins here. Explore courses, track your progress, and watch engaging video content.</p>
+  </section>
+
+  <!-- Courses Page -->
+  <section class="course-section" id="courses">
+    <h2>Available Courses</h2>
+    <div class="course-list">
+      <div class="course-card">
+        <h3>HTML & CSS</h3>
+        <p>Learn the basics of web development.</p>
+        <a href="course-video.html">Watch</a>
+      </div>
+      <div class="course-card">
+        <h3>JavaScript</h3>
+        <p>Master JavaScript for dynamic websites.</p>
+        <a href="course-video.html">Watch</a>
+      </div>
+      <div class="course-card">
+        <h3>Python</h3>
+        <p>Start coding with Python programming.</p>
+        <a href="course-video.html">Watch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Progress Page -->
+  <section class="progress-section" id="progress">
+    <h2>Your Progress</h2>
+    <div class="progress-card">
+      <p>HTML & CSS</p>
+      <progress value="70" max="100"></progress>
+    </div>
+    <div class="progress-card">
+      <p>JavaScript</p>
+      <progress value="40" max="100"></progress>
+    </div>
+    <div class="progress-card">
+      <p>Python</p>
+      <progress value="20" max="100"></progress>
+    </div>
+  </section>
+
+  <!-- Course Video Page -->
+  <section class="video-section" id="video">
+    <h2>Course Video</h2>
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+</body>
+</html>
